@@ -1,0 +1,30 @@
+@use '../global/' as g;
+.c-2cols, .c-3cols {
+    @include g.md {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    display: block;
+}
+.c-2cols--start, .c-3cols--start {
+    @include g.md {
+        justify-content: flex-start;
+    }
+}
+.c-2cols__col {
+    @include g.md {
+        width: 48%;
+    }
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.c-3cols__col {
+    @include g.md {
+        width: 30%;
+    }
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 3rem;
+}

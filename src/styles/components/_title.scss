@@ -1,5 +1,25 @@
+@use '../global/' as g;
 .c-title {
   margin-bottom: 1rem;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: g.$main_color;
+  position: relative;
+}
+.c-title::before,
+.c-title::after {
+  content: '';
+  position: absolute;
+  background: g.$main_color;
+  width: 35%;
+  height: 1px;
+}
+.c-title::before {
+  top: 50%;
+  left: 0;
+}
+.c-title::after {
+  top: 50%;
+  right: 0;
 }

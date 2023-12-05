@@ -1,0 +1,4 @@
+@use '../global/' as g;
+.u-bg-main-alpha {
+    background: rgba($color: g.$main_color, $alpha: 0.1);
+}

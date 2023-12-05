@@ -1,0 +1,28 @@
+@use '../global/' as g;
+.c-blog-list__item {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+    @include g.md {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.c-blog-list__item__date {
+    color: g.$main_color;
+}
+.c-blog-list__item__title {
+    position: relative;
+    font-size: 1rem;
+    padding-left: 1rem;
+    @include g.md {
+        margin-left: 5rem;
+    }
+}
+.c-blog-list__item__title::before {
+    content: '\e5cc';
+    position: absolute;
+    font-family: 'Material Symbols Outlined';
+    top: 0;
+    left: 0;
+}

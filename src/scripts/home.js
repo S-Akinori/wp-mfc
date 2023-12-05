@@ -1,5 +1,8 @@
 import $ from './jquery'
 
-$(function() {
-  console.log('hello from home page')
+$(function () {
+  document.querySelector('.hamburger').addEventListener('click', () => {
+    document.querySelector('.nav-links').classList.toggle('active');
+  });
+
 })

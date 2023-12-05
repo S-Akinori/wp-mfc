@@ -1,0 +1,5 @@
+@use '../global/' as g;
+.c-gradient-box {
+    padding: 1rem;
+    background: linear-gradient(to right, rgba(g.$main_color, 0.5), g.$base_color 30%, g.$base_color 30%);
+}

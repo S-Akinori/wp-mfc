@@ -1,8 +1,32 @@
-<div class="hidden fixed bottom-0 left-0 p-4 w-full bg-main" style="z-index: 9999;">
-    <div class="flex">
-      <a href="" class="c-button">ご予約: 000-0000-000</a>
+<div class="container mx-auto c-section">
+  <div class="u-bg-main-alpha p-12 border-main">
+    <h2 class="font-bold text-4xl mb-8">
+      ご不明な点は<br>
+      お気軽にお問い合わせください
+    </h2>
+    <p><span class="material-symbols-outlined">
+        mail
+      </span>お問い合わせはこちらから
+    </p>
+    <div class="flex items-center my-8">
+      <a href="" class="c-button mr-4">よくあるご質問</a>
+      <a href="" class="c-button c-button--outline">お問い合わせ</a>
     </div>
+    <p>お電話でのお問い合わせ</p>
+    <p>
+      <span class="material-symbols-outlined">
+        call
+      </span>
+      03-6807-8688 <span class="text-sm">（平日10:00〜18:00）</span>
+    </p>
+    <p>
+      <span class="material-symbols-outlined">
+        mail
+      </span>
+      info@m-f-c.tokyo
+    </p>
   </div>
+</div>
 </main>
 <footer class="footer">
   <div class="c-container mx-auto">
@@ -26,4 +50,5 @@
 <script src="<?php echo get_template_directory_uri(); ?>/assets/scripts/main.js"></script>
 <?php wp_footer(); ?>
 </body>
+
 </html>

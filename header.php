@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,27 +12,38 @@
   <meta property="og:url" content="<?php home_url(); ?>" />
   <meta property="og:image" content="<?= get_template_directory_uri(); ?>/image.png" />
   <meta property="og:site_name" content="<?php bloginfo('name'); ?>" />
-  <meta property="og:locale" content="ja_JP"  />
+  <meta property="og:locale" content="ja_JP" />
   <link rel="icon" href="/favicon.ico" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <link href="<?php echo get_template_directory_uri(); ?>/assets/styles/tw.css" rel="stylesheet">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/styles/index.css">
   <?php wp_enqueue_script('jquery'); ?>
-	<?php wp_head(); ?>
+  <?php wp_head(); ?>
 </head>
+
 <body>
   <header class="header">
-    <div class="flex justify-between items-center">
-      <div class="c-logo"><a href="<?= home_url(); ?>"><img src="<?= get_option('company_logo'); ?>" width="50" height="50" alt="<?= get_option('company_name'); ?>" /></a></div>
-      <div>
-        <a class="c-button" href="tel:<?= get_option('company_tel'); ?>">ご注文：<?= get_option('company_tel'); ?></a>
+    <nav id="navbar">
+      <div class="logo"><img src="<?= get_template_directory_uri() ?>/assets/images/navi_img_logo.webp"></div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#">Services</a>
+          <ul class="submenu">
+            <li><a href="#">Service 1</a></li>
+            <li><a href="#">Service 2</a></li>
+            <li><a href="#">Service 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
-      <!-- <button class="js-menu-button flex items-center justify-center">
-        <span class="material-icons">
-          menu
-        </span>
-      </button> -->
-    </div>
+    </nav>
   </header>
   <!-- <div id="jsNav" class="l-nav-container">
     <button class="js-menu-button absolute right-16 top-16 flex items-center justify-center">

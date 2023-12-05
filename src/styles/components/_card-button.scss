@@ -1,0 +1,29 @@
+@use '../global/' as g;
+.c-card-button {
+    position: relative;
+    border: 2px solid g.$main_color;
+    padding: 0.5rem 3rem;
+    color: g.$main_color;
+    box-shadow: 0 3px 6px #ccc;
+    text-align: center;
+}
+.c-card-button::after {
+    content: '\e5cc';
+    position: absolute;
+    font-family: 'Material Symbols Outlined';
+    font-size: 1.5rem;
+    color: g.$main_color;
+    top: 0%;
+    right: 10px;
+}
+// .c-card-button::before {
+//     content: "";
+//     position: absolute;
+//     top: 4px;
+//     right: -3px;
+//     background: #cfdc28;
+//     z-index: 2;
+//     transform: rotate(45deg);
+//     width: 1.2rem;
+//     height: 2px;
+// }

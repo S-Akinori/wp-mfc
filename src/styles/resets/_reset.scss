@@ -1,8 +1,10 @@
+@use '../global/' as g;
+
 :root {
-  --base-color: #111111;
+  --base-color: #888;
   --base-cont: #ffffff;
   --main-color: #adff2f;
-  --main-color-cont: #111111;
+  --main-color-cont: #888;
   --accent-color: #D1432A;
   --accent-cont: #ffffff;
   --max-width: 1280px;
@@ -12,13 +14,14 @@
   --breakpoint-xl: 1280px;
 }
 body {
-  color: var(--base-cont);
-  background: var(--base-color);
+  color: g.$base_color_cont;
+  background: g.$base_color;
   line-height: 2;
   letter-spacing: 0.1em;
   overflow-x: hidden;
   max-width: 100%;
-  font-family: "Source Han Serif", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+  // font-family: "Source Han Serif", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
 }
 main {
   padding-bottom: 3rem;
