@@ -1,5 +1,6 @@
 <?php
 include TEMPLATEPATH . '/functions/generate-upload-image-tag.php';
+include TEMPLATEPATH . '/functions/custom_breadcrumbs.php';
 include TEMPLATEPATH . '/settings/custom-post-type.php';
 include TEMPLATEPATH . '/settings/company-settings.php';
 

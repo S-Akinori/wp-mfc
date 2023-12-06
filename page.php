@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <article>
-  <div>
+  <div class="p-page">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <div class="p-6 mb-8 mx-auto container">
           <div class="p-page-fv">
@@ -11,6 +11,9 @@
           </div>
         </div>
         <div class="p-page__excerpt">
+          <div class="breadcrumbs">
+            <?php custom_breadcrumbs(); ?>
+          </div>
           <?php the_excerpt(); ?>
         </div>
         <div class="p-6 mx-auto container">

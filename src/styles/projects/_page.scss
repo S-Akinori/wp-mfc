@@ -4,3 +4,24 @@
     margin-bottom: 2rem;
     background: rgba($color: g.$main_color, $alpha: 0.2);
 }
+
+.p-page h3 {
+    font-size: 1.5rem;
+    color: g.$main_color;
+}
+.p-page ul {
+    list-style: disc;
+    list-style-position: inside;
+}
+.p-page a {
+    color: g.$main_color;
+    text-decoration: underline g.$main_color;
+}
+.p-page table tr td {
+    padding: 1rem 0;
+    border: none;
+    border-bottom: 1px solid g.$base_color_cont;
+}
+.p-page table tr td:first-child {
+    font-weight: bold;
+}
