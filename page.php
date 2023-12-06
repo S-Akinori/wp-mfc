@@ -20,7 +20,6 @@
           <div>
             <?php the_content(); ?>
           </div>
-          <p><?php the_date(); ?></p>
         </div>
     <?php endwhile;
     endif ?>
