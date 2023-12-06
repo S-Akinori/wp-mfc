@@ -1,7 +1,7 @@
 @use '../global/' as g;
 
 .header {
-  position: fixed;
+  // position: fixed;
   z-index: 9999;
   background: g.$base_color;
   color: g.$base_color_cont;

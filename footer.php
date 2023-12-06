@@ -30,21 +30,41 @@
 </main>
 <footer class="footer">
   <div class="c-container mx-auto">
-    <div class="footer__top">
-      <div class="c-logo mx-auto md:ml-0 md:mr-auto mb-4"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt=""></div>
-      <div class="text-center md:text-left whitespace-pre-wrap"><?= get_option('company_address'); ?></div>
+    <div><img src="<?= get_template_directory_uri();?>/assets/images/navi_img_footlogo_20230525162012297.webp" alt=""></div>
+    <div>
+      <p>〒114-0013　東京都北区東田端1-6-9 2F</p>
+      <div class="flex items-center">
+        <p>Tel.03-6807-8688</p>
+        <a href="" class="px-4"><img src="<?= get_template_directory_uri();?>/assets/images/glyph-logo_May2016_white.png" width="20" height="20" alt=""></a>
+        <a href="" class="px-4"><img src="<?= get_template_directory_uri();?>/assets/images/Facebook_Logo_Secondary.png" width="20" height="20" alt=""></a>
+      </div>
     </div>
-    <!-- <div>
-      <ul class="footer__link-list">
-        <li class="footer__link-list__item"><a class="<?= is_front_page() ? 'js-anchorLink' : ''; ?>" href="<?= is_front_page() ? '#topMessage' : home_url("#topMessage"); ?>">メッセージ</a></li>
-        <li class="footer__link-list__item"><a class="<?= is_front_page() ? 'js-anchorLink' : ''; ?>" href="<?= is_front_page() ? '#topFeatures' : home_url("#topFeatures"); ?>">3つの特徴</a></li>
-        <li class="footer__link-list__item"><a class="<?= is_front_page() ? 'js-anchorLink' : ''; ?>" href="<?= is_front_page() ? '#topMenu' : home_url("#topMenu"); ?>">メニュー</a></li>
-        <li class="footer__link-list__item"><a class="<?= is_front_page() ? 'js-anchorLink' : ''; ?>" href="<?= is_front_page() ? '#topReview' : home_url("#topReview"); ?>">お客様の声</a></li>
-        <li class="footer__link-list__item"><a class="<?= is_front_page() ? 'js-anchorLink' : ''; ?>" href="<?= is_front_page() ? '#topBlog' : home_url("#topBlog"); ?>">ブログ</a></li>
-        <li class="footer__link-list__item"><a class="<?= is_front_page() ? 'js-anchorLink' : ''; ?>" href="<?= is_front_page() ? '#topContact' : home_url("#topContact"); ?>">サロン情報</a></li>
-      </ul>
-    </div> -->
-    <div class="text-center text-sm">&copy;2023 <?= get_option('company_name'); ?></div>
+    <div class="border-b border-main-cont">
+      CONTENTS
+    </div>
+    <div>
+      <nav class="md:flex justify-between">
+        <ul>
+          <li><a href="">ニュース</a></li>
+        </ul>
+        <ul>
+          <li><a href="">クリニックについて</a></li>
+          <li><a href="">企業担当者の方へ</a></li>
+        </ul>
+        <ul>
+          <li><a href="">健康診断</a></li>
+          <li><a href="">企業担当者の方へ</a></li>
+        </ul>
+        <ul>
+          <li><a href="">オンライン外科</a></li>
+          <li><a href="">企業担当者の方へ</a></li>
+        </ul>
+        <ul>
+          <li><a href="">オンライン外科</a></li>
+          <li><a href="">企業担当者の方へ</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
 </footer>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/scripts/main.js"></script>

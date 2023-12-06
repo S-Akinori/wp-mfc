@@ -1,0 +1,6 @@
+@use '../global/' as g;
+.p-page__excerpt {
+    padding: 3rem 1rem;
+    margin-bottom: 2rem;
+    background: rgba($color: g.$main_color, $alpha: 0.2);
+}

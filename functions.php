@@ -4,6 +4,8 @@ include TEMPLATEPATH . '/settings/custom-post-type.php';
 include TEMPLATEPATH . '/settings/company-settings.php';
 
 add_theme_support('post-thumbnails');
+add_post_type_support( 'page', 'excerpt' );
+
 // function theme_slug_setup() {
 //   add_theme_support( 'title-tag' );
 // }
