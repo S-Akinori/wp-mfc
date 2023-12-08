@@ -1,0 +1,10 @@
+@use '../global/' as g;
+.p-news-index__item {
+    border-bottom: 1px solid g.$base_color_cont;
+}
+.p-news-index__item__title {
+    margin-bottom: 1rem;
+}
+.p-news-index__item__link {
+    text-decoration: none !important;
+}

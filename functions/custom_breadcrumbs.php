@@ -7,9 +7,9 @@ function custom_breadcrumbs() {
     // ページがカテゴリーのアーカイブページの場合
     if (is_category() || is_single()) {
         echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;";
-        the_category(' &bull; ');
+        // the_category(' &bull; ');
             if (is_single()) {
-                echo " &nbsp;&nbsp;&#187;&nbsp;&nbsp; ";
+                // echo " &nbsp;&nbsp;&#187;&nbsp;&nbsp; ";
                 the_title();
             }
     } elseif (is_page()) {
