@@ -30,13 +30,13 @@
 </main>
 <footer class="footer">
   <div class="c-container mx-auto">
-    <div><img src="<?= get_template_directory_uri();?>/assets/images/navi_img_footlogo_20230525162012297.webp" alt=""></div>
+    <div><img src="<?= get_template_directory_uri(); ?>/assets/images/navi_img_footlogo_20230525162012297.webp" alt=""></div>
     <div>
       <p>〒114-0013　東京都北区東田端1-6-9 2F</p>
       <div class="flex items-center">
         <p>Tel.03-6807-8688</p>
-        <a href="" class="px-4"><img src="<?= get_template_directory_uri();?>/assets/images/glyph-logo_May2016_white.png" width="20" height="20" alt=""></a>
-        <a href="" class="px-4"><img src="<?= get_template_directory_uri();?>/assets/images/Facebook_Logo_Secondary.png" width="20" height="20" alt=""></a>
+        <a href="" class="px-4"><img src="<?= get_template_directory_uri(); ?>/assets/images/glyph-logo_May2016_white.png" width="20" height="20" alt=""></a>
+        <a href="" class="px-4"><img src="<?= get_template_directory_uri(); ?>/assets/images/Facebook_Logo_Secondary.png" width="20" height="20" alt=""></a>
       </div>
     </div>
     <div class="border-b border-main-cont">
@@ -44,27 +44,16 @@
     </div>
     <div>
       <nav class="md:flex justify-between">
-        <ul>
-          <li><a href="">ニュース</a></li>
-        </ul>
-        <ul>
-          <li><a href="">クリニックについて</a></li>
-          <li><a href="">企業担当者の方へ</a></li>
-        </ul>
-        <ul>
-          <li><a href="">健康診断</a></li>
-          <li><a href="">企業担当者の方へ</a></li>
-        </ul>
-        <ul>
-          <li><a href="">オンライン外科</a></li>
-          <li><a href="">企業担当者の方へ</a></li>
-        </ul>
-        <ul>
-          <li><a href="">オンライン外科</a></li>
-          <li><a href="">企業担当者の方へ</a></li>
-        </ul>
+        <?php
+        wp_nav_menu(array(
+          'theme_location' => 'footer',
+          'menu_id'        => 'footer-menu',
+          'menu_class'     => 'footer-links',
+        ));
+        ?>
       </nav>
     </div>
+    <div class="footer-copyright">&copy; Medical Front Clinic. ALL RIGHTS RESERVED..</div>
   </div>
 </footer>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/scripts/main.js"></script>

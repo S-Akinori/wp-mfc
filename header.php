@@ -25,38 +25,35 @@
   <header class="header">
     <nav id="navbar">
       <div class="logo"><img src="<?= get_template_directory_uri() ?>/assets/images/navi_img_logo.webp"></div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li>
-          <a href="#">Services</a>
-          <ul class="submenu">
-            <li><a href="#">Service 1</a></li>
-            <li><a href="#">Service 2</a></li>
-            <li><a href="#">Service 3</a></li>
-          </ul>
-        </li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+      <?php
+      wp_nav_menu(array(
+        'theme_location' => 'header',
+        'menu_id'        => 'primary-menu',
+        'menu_class'     => 'nav-links',
+      ));
+      ?>
       <div class="hamburger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+        <span class="material-symbols-outlined">
+          menu
+        </span>
       </div>
     </nav>
   </header>
-  <!-- <div id="jsNav" class="l-nav-container">
-    <button class="js-menu-button absolute right-16 top-16 flex items-center justify-center">
-    <span class="material-icons text-gray-400">close</span>
-    </button>
+  <div class="header-overlay"></div>
+  <div class="sp-nav-container">
+    <div class="nav-close-icon">
+      <span class="material-symbols-outlined">
+        close
+      </span>
+    </div>
     <nav>
-      <ul>
-        <li><a href="">Link</a></li>
-        <li><a href="">Link</a></li>
-        <li><a href="">Link</a></li>
-        <li><a href="">Link</a></li>
-        <li><a href="">Link</a></li>
-      </ul>
+      <?php
+      wp_nav_menu(array(
+        'theme_location' => 'header',
+        'menu_id'        => 'primary-menu',
+        'menu_class'     => 'nav-links',
+      ));
+      ?>
     </nav>
-  </div> -->
+  </div>
   <main>
