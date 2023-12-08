@@ -43,7 +43,7 @@
       CONTENTS
     </div>
     <div>
-      <nav class="md:flex justify-between">
+      <nav class="">
         <?php
         wp_nav_menu(array(
           'theme_location' => 'footer',
