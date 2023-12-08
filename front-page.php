@@ -20,20 +20,20 @@ $menus = get_posts($args);
   </div>
   <div class="c-2cols">
     <div class="c-2cols__col">
-      <a href=""><img src="<?= get_template_directory_uri(); ?>/assets/images/top_bnr_junkai.webp" alt=""></a>
+      <a href="/checkup/mobileCheckup"><img src="<?= get_template_directory_uri(); ?>/assets/images/top_bnr_junkai.webp" alt="巡回検診"></a>
     </div>
     <div class="c-2cols__col">
       <div class="flex items-center justify-between c-gradient-box">
         <div class="text-main font-bold text-3xl">各種検査</div>
         <div class="flex flex-col">
-          <a href="#" class="c-card-button mb-4">ストレスチェック</a>
-          <a href="#" class="c-card-button mb-4">SAS検査</a>
-          <a href="#" class="c-card-button mb-4">歯周病検査</a>
+          <a href="/checkup/stresscheck" class="c-card-button mb-4">ストレスチェック</a>
+          <a href="/checkup/sas" class="c-card-button mb-4">SAS検査</a>
+          <a href="/checkup/dental" class="c-card-button mb-4">歯周病検査</a>
         </div>
       </div>
     </div>
     <div class="c-2cols__col">
-      <a href=""><img src="<?= get_template_directory_uri(); ?>/assets/images/top_bnr_online.webp" alt=""></a>
+      <a href="/online"><img src="<?= get_template_directory_uri(); ?>/assets/images/top_bnr_online.webp" alt="オンライン外来"></a>
     </div>
   </div>
   <div class="c-section">
@@ -48,7 +48,7 @@ $menus = get_posts($args);
       endif; ?>
     </div>
     <div class="mt-8 text-center">
-      <a href="" class="c-button">全て見る</a>
+      <a href="/news" class="c-button">全て見る</a>
     </div>
   </div>
 </div>
@@ -73,8 +73,8 @@ $menus = get_posts($args);
       <div class="shrink-0 pl-8"><img src="<?= get_template_directory_uri(); ?>/assets/images/img_about_busph.webp" alt=""></div>
     </div>
     <div class="c-2cols mt-4">
-      <div class="c-2cols__col"><a href=""><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btn_aboutclinic.webp" alt=""></a></div>
-      <div class="c-2cols__col"><a href=""><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btn_tantousha.webp" alt=""></a></div>
+      <div class="c-2cols__col"><a href="/about"><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btn_aboutclinic.webp" alt="クリニックについて"></a></div>
+      <div class="c-2cols__col"><a href="/Towimc"><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btn_tantousha.webp" alt="ご担当者様へ"></a></div>
     </div>
   </div>
 </div>
@@ -83,29 +83,29 @@ $menus = get_posts($args);
   <p class="text-center mb-8">Medical Front Clinicでは、健康状態をチェックできる健康診断を各種行っています。</p>
   <div class="c-3cols c-3cols--start">
     <div class="c-3cols__col">
-      <a href="" class="c-card-button inline-block w-full">巡回健診</a>
+      <a href="/checkup/mobileCheckup" class="c-card-button inline-block w-full">巡回健診</a>
     </div>
     <div class="c-3cols__col">
-      <a href="" class="c-card-button inline-block w-full">予防接種</a>
-    </div>
-  </div>
-  <div class="c-3cols c-3cols--start">
-    <div class="c-3cols__col">
-      <a href="" class="c-card-button inline-block w-full">ストレスチェック</a>
-    </div>
-    <div class="c-3cols__col">
-      <a href="" class="c-card-button inline-block w-full">SAS検査</a>
-    </div>
-    <div class="c-3cols__col">
-      <a href="" class="c-card-button inline-block w-full">歯周病検査</a>
+      <a href="/checkup/vaccination" class="c-card-button inline-block w-full">予防接種</a>
     </div>
   </div>
   <div class="c-3cols c-3cols--start">
     <div class="c-3cols__col">
-      <a href="" class="c-card-button inline-block w-full">労災二次健診</a>
+      <a href="/checkup/stresscheck" class="c-card-button inline-block w-full">ストレスチェック</a>
     </div>
     <div class="c-3cols__col">
-      <a href="" class="c-card-button inline-block w-full">検査結果ガイド</a>
+      <a href="/checkup/sas" class="c-card-button inline-block w-full">SAS検査</a>
+    </div>
+    <div class="c-3cols__col">
+      <a href="/checkup/dental" class="c-card-button inline-block w-full">歯周病検査</a>
+    </div>
+  </div>
+  <div class="c-3cols c-3cols--start">
+    <div class="c-3cols__col">
+      <a href="/checkup/healthguid" class="c-card-button inline-block w-full">労災二次健診</a>
+    </div>
+    <div class="c-3cols__col">
+      <a href="/checkup/resultguide" class="c-card-button inline-block w-full">検査結果ガイド</a>
     </div>
   </div>
 </div>

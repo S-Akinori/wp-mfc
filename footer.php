@@ -9,8 +9,8 @@
       </span>お問い合わせはこちらから
     </p>
     <div class="flex items-center my-8">
-      <a href="" class="c-button mr-4">よくあるご質問</a>
-      <a href="" class="c-button c-button--outline">お問い合わせ</a>
+      <a href="/faq" class="c-button mr-4">よくあるご質問</a>
+      <a href="/contact" class="c-button c-button--outline">お問い合わせ</a>
     </div>
     <p>お電話でのお問い合わせ</p>
     <p>
