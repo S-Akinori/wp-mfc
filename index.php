@@ -33,30 +33,30 @@
 </article>
 <?php get_footer(); ?>
 
-<table class="custom-table-with-header">
-  <tr>
-    <th colspan="5"></th>
-    <th colspan="5">要注意</th>
-    <th colspan="5">基準範囲※</th>
-    <th colspan="5">要注意</th>
-  </tr>
-  <tr>
-    <td colspan="5">体格指数<br>（BMI）</td>
-    <td colspan="5">体格指数<br>（BMI）</td>
-    <td colspan="5">体格指数<br>（BMI）</td>
-    <td colspan="5">体格指数<br>（BMI）</td>
-  </tr>
-  <tr>
-    <td colspan="4">体格指数<br>（BMI）</td>
-    <td colspan="4">体格指数<br>（BMI）</td>
-    <td colspan="4">体格指数<br>（BMI）</td>
-    <td colspan="4">体格指数<br>（BMI）</td>
-    <td colspan="4">体格指数<br>（BMI）</td>
-  </tr>
-  <tr>
-    <td colspan="5">体格指数<br>（BMI）</td>
-    <td colspan="5">体格指数<br>（BMI）</td>
-    <td colspan="5">体格指数<br>（BMI）</td>
-    <td colspan="5">体格指数<br>（BMI）</td>
-  </tr>
-</table>
+          <table class="custom-table-with-header">
+            <tr>
+              <th colspan="5"></th>
+              <th colspan="5">要注意</th>
+              <th colspan="5">基準範囲※</th>
+              <th colspan="5">要注意</th>
+            </tr>
+            <tr>
+              <td colspan="5">体格指数<br>（BMI）</td>
+              <td colspan="5">体格指数<br>（BMI）</td>
+              <td colspan="5">体格指数<br>（BMI）</td>
+              <td colspan="5">体格指数<br>（BMI）</td>
+            </tr>
+            <tr>
+              <td colspan="4">体格指数<br>（BMI）</td>
+              <td colspan="4">体格指数<br>（BMI）</td>
+              <td colspan="4">体格指数<br>（BMI）</td>
+              <td colspan="4">体格指数<br>（BMI）</td>
+              <td colspan="4">体格指数<br>（BMI）</td>
+            </tr>
+            <tr>
+              <td colspan="5">体格指数<br>（BMI）</td>
+              <td colspan="5">体格指数<br>（BMI）</td>
+              <td colspan="5">体格指数<br>（BMI）</td>
+              <td colspan="5">体格指数<br>（BMI）</td>
+            </tr>
+          </table>
