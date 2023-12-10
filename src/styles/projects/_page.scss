@@ -71,3 +71,20 @@
 .p-page .custom-table tr td:first-child {
     background: #f7f7f7;
 }
+
+.p-page .custom-table-with-header {
+    table-layout: fixed;
+    width: 100%;
+}
+.p-page .custom-table-with-header th {
+    padding: 0 !important;
+    border: 1px solid rgba($color: g.$base_color_cont, $alpha: 0.3);
+    text-align: center;
+    background: rgba($color: g.$main_color, $alpha: 0.5);
+    font-weight: bold;
+}
+.p-page .custom-table-with-header td {
+    padding: 0 !important;
+    border: 1px solid rgba($color: g.$base_color_cont, $alpha: 0.3);
+    text-align: center;
+}
