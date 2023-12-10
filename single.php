@@ -15,7 +15,7 @@
             <?php custom_breadcrumbs(); ?>
           </div>
         </div>
-        <div class="p-6 mx-auto c-container">
+        <div class="p-6 mx-auto c-container c-fade-in">
           <div class="mb-4"><?php the_date(); ?></div>
           <div>
             <?php the_content(); ?>

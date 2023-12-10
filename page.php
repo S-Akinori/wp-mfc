@@ -2,21 +2,23 @@
 <article>
   <div class="p-page">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <div class="p-6 mb-8 mx-auto container">
-          <div class="p-page-fv">
-            <div class="w-full px-20">
+        <div class="p-6 mb-8 c-container">
+          <div class="p-page-fv c-fade-in">
+            <div class="sm:w-2/3">
               <h1 class="p-page-fv__title"><?php the_title(); ?></h1>
               <div><?php the_field('en_title'); ?></div>
             </div>
           </div>
         </div>
         <div class="p-page__excerpt">
-          <div class="c-container breadcrumbs">
-            <?php custom_breadcrumbs(); ?>
+          <div class="c-container">
+            <div class="breadcrumbs">
+              <?php custom_breadcrumbs(); ?>
+            </div>
+            <div class="sm:pl-8"><?php the_excerpt(); ?></div>
           </div>
-          <?php the_excerpt(); ?>
         </div>
-        <div class="p-6 mx-auto container">
+        <div class="p-6 mx-auto c-container">
           <div>
             <?php the_content(); ?>
           </div>

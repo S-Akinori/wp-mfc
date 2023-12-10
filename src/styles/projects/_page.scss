@@ -1,7 +1,7 @@
 @use '../global/' as g;
 
 .p-page__excerpt {
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
     margin-bottom: 2rem;
     background: rgba($color: g.$main_color, $alpha: 0.1);
 }
@@ -26,14 +26,39 @@
     text-decoration: underline g.$main_color;
 }
 
-.p-page table tr td {
-    padding: 1rem 0;
-    border: none;
+.p-page table tr {
     border-bottom: 1px solid g.$base_color_cont;
+
+}
+.p-page table tr td {
+    padding: .5rem 0;
+    border: none;
+    display: block;
+    @include g.sm {
+        display: table-cell;
+        padding: 1rem 0;
+        width: 100px;
+    }
 }
 
 .p-page table tr td:first-child {
+    padding: 0;
+    font-size: 1.5rem;
     font-weight: bold;
+    vertical-align: top;
+    width: 100%;
+    @include g.sm {
+        padding: 1rem 0;
+        font-size: 1rem;
+        width: 20%;
+    }
+}
+
+.p-page table tr td:last-child {
+    width: 100%;
+    @include g.sm {
+        width: 80%;
+    }
 }
 
 .p-page p {
