@@ -25,7 +25,7 @@
   <header class="header">
     <div class="c-container">
       <nav id="navbar">
-        <div class="logo"><img src="<?= get_template_directory_uri() ?>/assets/images/navi_img_logo.webp"></div>
+        <div class="logo"><a href="<?= home_url(); ?>"><img src="<?= get_template_directory_uri() ?>/assets/images/navi_img_logo.webp"></a></div>
         <?php
         wp_nav_menu(array(
           'theme_location' => 'header',
