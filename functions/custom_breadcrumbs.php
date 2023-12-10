@@ -6,19 +6,19 @@ function custom_breadcrumbs() {
 
     // ページがカテゴリーのアーカイブページの場合
     if (is_category() || is_single()) {
-        echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;";
+        echo "|";
         // the_category(' &bull; ');
             if (is_single()) {
-                // echo " &nbsp;&nbsp;&#187;&nbsp;&nbsp; ";
+                // echo " | ";
                 the_title();
             }
     } elseif (is_page()) {
         // WordPressのページ（投稿ではない）の場合
-        echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;";
+        echo "|";
         echo the_title();
     } elseif (is_search()) {
         // 検索結果ページの場合
-        echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;検索結果: ";
+        echo "|検索結果: ";
         echo the_search_query();
     }
 }

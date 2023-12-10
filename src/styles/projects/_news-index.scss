@@ -3,8 +3,11 @@
     border-bottom: 1px solid g.$base_color_cont;
 }
 .p-news-index__item__title {
+    // font-size: 1.2rem !important;
     margin-bottom: 1rem;
+    color: g.$main_color2;
 }
 .p-news-index__item__link {
     text-decoration: none !important;
+    color: g.$main_color2;
 }

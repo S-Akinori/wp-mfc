@@ -23,21 +23,23 @@
 
 <body>
   <header class="header">
-    <nav id="navbar">
-      <div class="logo"><img src="<?= get_template_directory_uri() ?>/assets/images/navi_img_logo.webp"></div>
-      <?php
-      wp_nav_menu(array(
-        'theme_location' => 'header',
-        'menu_id'        => 'primary-menu',
-        'menu_class'     => 'nav-links',
-      ));
-      ?>
-      <div class="hamburger">
-        <span class="material-symbols-outlined">
-          menu
-        </span>
-      </div>
-    </nav>
+    <div class="c-container">
+      <nav id="navbar">
+        <div class="logo"><img src="<?= get_template_directory_uri() ?>/assets/images/navi_img_logo.webp"></div>
+        <?php
+        wp_nav_menu(array(
+          'theme_location' => 'header',
+          'menu_id'        => 'primary-menu',
+          'menu_class'     => 'p-gnav__links',
+        ));
+        ?>
+        <div class="hamburger">
+          <span class="material-symbols-outlined">
+            menu
+          </span>
+        </div>
+      </nav>
+    </div>
   </header>
   <div class="header-overlay"></div>
   <div class="sp-nav-container">
@@ -51,7 +53,7 @@
       wp_nav_menu(array(
         'theme_location' => 'header',
         'menu_id'        => 'primary-menu',
-        'menu_class'     => 'nav-links',
+        'menu_class'     => 'p-gnav__links',
       ));
       ?>
     </nav>

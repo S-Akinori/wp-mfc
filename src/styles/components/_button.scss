@@ -4,10 +4,12 @@
   border-radius: 100vh;
   background: g.$main_color;
   color: g.$main_color_cont;
+  border: 2px solid g.$main_color;
   transition: 300ms;
 }
 .c-button:hover {
-  opacity: 0.8;
+  background: rgba($color: g.$main_color, $alpha: 0.5);
+  color: g.$main_color;
 }
 
 .c-button--outline {

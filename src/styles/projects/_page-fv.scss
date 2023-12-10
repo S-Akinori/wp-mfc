@@ -3,12 +3,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
-    background: url("images/title_bg_about.webp") no-repeat center center/cover;
+    padding: 4rem 2rem;
     color: g.$main_color_cont;
     text-align: center;
     text-shadow: 0 3px 5px #aaa;
     font-weight: 700;
+    background: url("images/tiitle_bg_sp.webp") no-repeat center center/cover;
+    @include g.sm {
+        padding: 4rem 4rem;
+        background: url("images/title_bg_about.webp") no-repeat center center/cover;
+    }
 }
 .p-page-fv__title {
     margin-bottom: 1rem;

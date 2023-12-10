@@ -4,14 +4,14 @@
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
         <div class="p-6 mb-8 mx-auto container">
           <div class="p-page-fv">
-            <div>
+            <div class="w-full px-20">
               <h1 class="p-page-fv__title"><?php the_title(); ?></h1>
               <div><?php the_field('en_title'); ?></div>
             </div>
           </div>
         </div>
         <div class="p-page__excerpt">
-          <div class="breadcrumbs">
+          <div class="c-container breadcrumbs">
             <?php custom_breadcrumbs(); ?>
           </div>
           <?php the_excerpt(); ?>

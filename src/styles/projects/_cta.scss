@@ -1,0 +1,19 @@
+@use '../global/' as g;
+.p-cta {
+    padding: 1rem;
+    background: rgba($color: g.$main_color, $alpha: 0.1);
+    border: 1px solid g.$main_color;
+    margin: auto;
+    @include g.sm {
+        padding: 3rem 5rem;
+        max-width: 60%;
+    }
+}
+.p-cta__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    @include g.sm {
+        font-size: 2rem;
+    }
+}

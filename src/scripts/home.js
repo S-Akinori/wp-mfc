@@ -1,6 +1,8 @@
 import $ from './jquery'
+import { fadeIn } from './modules/fadeIn';
 
 $(function () {
+  fadeIn();
   $('.hamburger').on('click', function() {
     $('.sp-nav-container').toggleClass('active');
   });

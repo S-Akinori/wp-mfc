@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <article>
   <div class="p-page">
-    <div class="p-6 mb-8 mx-auto container">
+    <div class="p-6 px-12 mb-8 mx-auto container">
       <div class="p-page-fv">
         <div>
           <h1 class="p-page-fv__title">ニュース</h1>
@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="p-page__excerpt">
-      <div class="breadcrumbs">
+      <div class="c-container breadcrumbs">
         <?php custom_breadcrumbs(); ?>
       </div>
     </div>

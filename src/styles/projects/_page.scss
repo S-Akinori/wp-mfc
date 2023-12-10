@@ -1,13 +1,13 @@
 @use '../global/' as g;
 
 .p-page__excerpt {
-    padding: 3rem 1rem;
+    padding: 1rem 1rem;
     margin-bottom: 2rem;
-    background: rgba($color: g.$main_color, $alpha: 0.2);
+    background: rgba($color: g.$main_color, $alpha: 0.1);
 }
 
 .p-page h2 {
-    color: g.$main_color;
+    color: g.$main_color2;
     font-size: 1.5rem;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .p-page a {
-    color: g.$main_color;
+    color: g.$main_color2;
     text-decoration: underline g.$main_color;
 }
 

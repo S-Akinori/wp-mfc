@@ -1,12 +1,14 @@
 @use '../global/' as g;
 .footer {
-  background: g.$main_color;
+  background: g.$main_color2;
   color: g.$main_color_cont;
   padding: 3rem;
 }
 
 .footer-links {
-  display: flex;
+  @include g.sm {
+    display: flex;
+  }
   justify-content: space-between;
   flex-wrap: wrap;
 }

@@ -1,10 +1,10 @@
-<div class="container mx-auto c-section">
-  <div class="u-bg-main-alpha p-12 border-main">
-    <h2 class="font-bold text-4xl mb-8">
+<div class="c-container c-section c-fade-in">
+  <div class="p-cta">
+    <h2 class="p-cta__title">
       ご不明な点は<br>
       お気軽にお問い合わせください
     </h2>
-    <p><span class="material-symbols-outlined">
+    <p><span class="material-symbols-outlined icon">
         mail
       </span>お問い合わせはこちらから
     </p>
@@ -14,13 +14,13 @@
     </div>
     <p>お電話でのお問い合わせ</p>
     <p>
-      <span class="material-symbols-outlined">
+      <span class="material-symbols-outlined icon">
         call
       </span>
       03-6807-8688 <span class="text-sm">（平日10:00〜18:00）</span>
     </p>
     <p>
-      <span class="material-symbols-outlined">
+      <span class="material-symbols-outlined icon">
         mail
       </span>
       info@m-f-c.tokyo
@@ -42,7 +42,7 @@
     <div class="border-b border-main-cont">
       CONTENTS
     </div>
-    <div>
+    <div class="c-fade-in">
       <nav class="">
         <?php
         wp_nav_menu(array(

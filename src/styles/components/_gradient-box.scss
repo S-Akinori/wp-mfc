@@ -1,5 +1,17 @@
 @use '../global/' as g;
 .c-gradient-box {
     padding: 1rem;
-    background: linear-gradient(to right, rgba(g.$main_color, 0.5), g.$base_color 30%, g.$base_color 30%);
+    background: linear-gradient(to right, rgba(g.$main_color, 0.5), g.$base_color 50%, g.$base_color 50%);
+}
+.sm\:c-gradient-box {
+    @include g.sm {
+        padding: 1rem;
+        background: linear-gradient(to right, rgba(g.$main_color, 0.5), g.$base_color 50%, g.$base_color 50%);
+    }
+}
+.md\:c-gradient-box {
+    @include g.md {
+        padding: 1rem;
+        background: linear-gradient(to right, rgba(g.$main_color, 0.5), g.$base_color 50%, g.$base_color 50%);
+    }
 }

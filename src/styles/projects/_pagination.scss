@@ -8,5 +8,23 @@
 }
 .p-pagination__prev a,
 .p-pagination__next a {
+    color: g.$main_color;
     text-decoration: none !important;
+}
+
+.p-pagination__prev a::before {
+    content: '\e5cb';
+    font-family: 'Material Symbols Outlined';
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: .5rem;
+    border: 1px solid g.$main_color2;
+}
+.p-pagination__next a::after {
+    content: '\e5cc';
+    font-family: 'Material Symbols Outlined';
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-left: .5rem;
+    border: 1px solid g.$main_color2;
 }
