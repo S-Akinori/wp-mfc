@@ -73,9 +73,7 @@
 }
 
 .p-page .custom-table-with-header {
-    @include g.md {
-        table-layout: fixed;
-    }
+    table-layout: fixed;
     width: 100%;
 }
 .p-page .custom-table-with-header th {
