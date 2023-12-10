@@ -64,3 +64,10 @@
 .p-page p {
     margin-bottom: 1.5rem;
 }
+
+.p-page .custom-table {
+    border: 2px solid #c9c9c9;
+}
+.p-page .custom-table tr td:first-child {
+    background: #f7f7f7;
+}
