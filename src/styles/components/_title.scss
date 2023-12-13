@@ -7,7 +7,7 @@
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
-  color: g.$main_color2;
+  color: g.$main_color2 !important;
   position: relative;
 }
 .c-title::before{
