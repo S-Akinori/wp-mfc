@@ -2,7 +2,10 @@
 .footer {
   background: g.$main_color2;
   color: g.$main_color_cont;
-  padding: 3rem;
+  padding: 1rem;
+  @include g.sm {
+    padding: 3rem;
+  }
 }
 
 .footer-links {
