@@ -68,7 +68,7 @@ $menus = get_posts($args);
           </h2>
           <h3 class="font-bold c-fade-in">自分のため、家族のために健康で長く働ける幸せな生活を</h3>
           <div class="c-fade-in">
-            <p><span class="bg-main">「早期発見」を目指して</span><br>
+            <p><span style="background: #e5f05b;">「早期発見」を目指して</span><br>
               日本における死亡原因のトップである「がん」は、早期発見こそが治療へのもっとも確実なステップです。
             </p>
             <p>

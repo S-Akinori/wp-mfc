@@ -18,7 +18,9 @@
 
 .p-gnav__links {
   display: flex;
+  justify-content: end;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .p-gnav__links>li {
@@ -42,7 +44,7 @@
 
 .p-gnav__links>li>a {
   display: inline-block;
-  padding: 10px 15px;
+  padding: .25rem;
   text-decoration: none;
   // color: black;
   transition: 300ms;

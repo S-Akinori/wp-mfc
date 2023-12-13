@@ -2,7 +2,7 @@
 .c-blog-list__item {
     border-bottom: 1px solid #ccc;
     padding: 1rem 0;
-    @include g.md {
+    @include g.sm {
         display: flex;
         align-items: center;
     }
@@ -15,7 +15,7 @@
     position: relative;
     font-size: 1rem;
     padding-left: 1rem;
-    @include g.md {
+    @include g.sm {
         margin-left: 5rem;
     }
 }
