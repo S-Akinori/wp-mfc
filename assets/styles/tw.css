@@ -635,6 +635,11 @@ video {
   border-color: rgb(252 252 252 / var(--tw-border-opacity));
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
