@@ -19,7 +19,9 @@
             <div class="breadcrumbs">
               <?php custom_breadcrumbs(); ?>
             </div>
-            <div class="sm:pl-8"><?php the_excerpt(); ?></div>
+            <?php if(has_excerpt()): ?>
+              <div class="sm:pl-8"><?php the_excerpt(); ?></div>
+            <?php endif; ?>
           </div>
         </div>
         <div class="p-6 mx-auto c-container">
