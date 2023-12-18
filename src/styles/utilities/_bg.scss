@@ -31,6 +31,10 @@
     border-radius: 10px;
 }
 
+.border-main-cont {
+  border: 1px solid g.$main_color_cont;
+}
+
 .arrow-icon {
   position: relative;
   padding-left: 1rem;
