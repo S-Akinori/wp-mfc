@@ -44,6 +44,14 @@
     top: 50%;
     color: g.$main_color2;
 }
-.md\:w-4\/5 {
+.sm\:w-4\/5 {
     width: 80%;
+}
+.text-center {
+    text-align: center;
+}
+.sm\:text-left {
+  @include g.sm {
+    text-align: left;
+  }
 }
