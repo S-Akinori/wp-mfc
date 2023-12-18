@@ -14,10 +14,10 @@
     </div>
     <p>お電話でのお問い合わせ</p>
     <p>
-      <span class="material-symbols-outlined icon">
+      <span class="material-symbols-outlined icon text-3xl">
         call
       </span>
-      03-6807-8688 <span class="text-sm">（平日10:00〜18:00）</span>
+      <span class="text-2xl">03-6807-8688</span> <span class="text-sm">（平日10:00〜18:00）</span>
     </p>
     <p>
       <span class="material-symbols-outlined icon">

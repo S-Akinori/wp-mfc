@@ -28,9 +28,9 @@ $menus = get_posts($args);
           <div class="md:flex items-center justify-between sm:c-gradient-box">
             <div class="text-main font-bold text-3xl hidden sm:block">各種検査</div>
             <div class="flex flex-col">
-              <a href="/cms/checkup/stresscheck" class="c-card-button mb-4">ストレスチェック</a>
-              <a href="/cms/checkup/sas" class="c-card-button mb-4">SAS検査</a>
-              <a href="/cms/checkup/dental" class="c-card-button">歯周病検査</a>
+              <a href="/cms/checkup/stresscheck" class=" mb-4"><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btns_dental_20230614221443685.webp" alt="ストレスチェック"></a>
+              <a href="/cms/checkup/sas" class=" mb-4"><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btns_sas_20230614221443685.webp" alt="SAS検査"></a>
+              <a href="/cms/checkup/dental" class=""><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btns_stress_20230614221443685.webp" alt="ストレスチェック"></a>
             </div>
           </div>
         </div>
@@ -96,29 +96,29 @@ $menus = get_posts($args);
     </div>
     <div class="c-3cols c-3cols--start">
       <div class="c-3cols__col c-fade-in">
-        <a href="/cms/checkup/mobileCheckup" class="c-card-button inline-block w-full">巡回健診</a>
+        <a href="/cms/checkup/mobileCheckup" class=""><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btn_junkai_20230524230743559.webp" alt="巡回検診"></a>
       </div>
       <div class="c-3cols__col c-fade-in">
-        <a href="/cms/checkup/vaccination" class="c-card-button inline-block w-full">予防接種</a>
-      </div>
-    </div>
-    <div class="c-3cols c-3cols--start">
-      <div class="c-3cols__col c-fade-in">
-        <a href="/cms/checkup/stresscheck" class="c-card-button inline-block w-full">ストレスチェック</a>
-      </div>
-      <div class="c-3cols__col c-fade-in">
-        <a href="/cms/checkup/sas" class="c-card-button inline-block w-full">SAS検査</a>
-      </div>
-      <div class="c-3cols__col c-fade-in">
-        <a href="/cms/checkup/dental" class="c-card-button inline-block w-full">歯周病検査</a>
+        <a href="/cms/checkup/vaccination" class=""><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btn_yobousesshu.webp" alt="予防接種"></a>
       </div>
     </div>
     <div class="c-3cols c-3cols--start">
       <div class="c-3cols__col c-fade-in">
-        <a href="/cms/checkup/healthguid" class="c-card-button inline-block w-full">労災二次健診</a>
+        <a href="/cms/checkup/stresscheck" class=""><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btns_dental_20230614221443685.webp" alt="ストレスチェック"></a>
       </div>
       <div class="c-3cols__col c-fade-in">
-        <a href="/cms/checkup/resultguide" class="c-card-button inline-block w-full">検査結果ガイド</a>
+        <a href="/cms/checkup/sas" class=""><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btns_sas_20230614221443685.webp" alt="SAS検査"></a>
+      </div>
+      <div class="c-3cols__col c-fade-in">
+        <a href="/cms/checkup/dental" class=""><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btns_stress_20230614221443685.webp" alt="歯周病検査"></a>
+      </div>
+    </div>
+    <div class="c-3cols c-3cols--start">
+      <div class="c-3cols__col c-fade-in">
+        <a href="/cms/checkup/healthguid" class=""><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btn_nijikenshin.webp" alt="労災二次検診"></a>
+      </div>
+      <div class="c-3cols__col c-fade-in">
+        <a href="/cms/checkup/resultguide" class=""><img src="<?= get_template_directory_uri(); ?>/assets/images/top_btn_kensaguid.webp" alt="検査結果ガイド"></a>
       </div>
     </div>
   </div>
