@@ -30,3 +30,17 @@
 .rounded {
     border-radius: 10px;
 }
+
+.arrow-icon {
+  position: relative;
+  padding-left: 1rem;
+}
+.arrow-icon::before {
+    content: '\e5cf';
+    font-family: "Material Symbols Outlined";
+    vertical-align: middle;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: g.$main_color2;
+}
